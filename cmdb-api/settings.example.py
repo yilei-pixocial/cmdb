@@ -61,8 +61,8 @@ DEFAULT_MAIL_SENDER = ''
 
 # # queue
 CELERY = {
-    'broker_url': 'redis://127.0.0.1:6379/2',
-    'result_backend': 'redis://127.0.0.1:6379/2',
+    'broker_url': f"redis://:{CACHE_REDIS_PASSWORD}@{CACHE_REDIS_HOST}:{CACHE_REDIS_PORT}/2",
+    'result_backend':f"redis://:{CACHE_REDIS_PASSWORD}@{CACHE_REDIS_HOST}:{CACHE_REDIS_PORT}/2",
     'broker_vhost': '/',
     'broker_connection_retry_on_startup': True
 }
