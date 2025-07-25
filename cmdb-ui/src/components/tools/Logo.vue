@@ -4,13 +4,13 @@
       @click="jumpTo"
       v-if="showTitle && !collapsed"
       style="width: 100%; height: 100%; cursor: pointer"
-      :src="require('@/assets/logo_VECMDB.png')"
+      :src="require('@/assets/pix-logo.png')"
     />
     <img
       @click="jumpTo"
       v-else
       style="width: 32px; height: 32px; margin-left: 24px; cursor: pointer"
-      :src="require('@/assets/logo.png')"
+      :src="require('@/assets/pixocial.png')"
     />
   </div>
 </template>

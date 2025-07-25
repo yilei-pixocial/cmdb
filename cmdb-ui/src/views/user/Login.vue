@@ -4,7 +4,7 @@
       <span>{{ $t('cs.login.loginText') }}</span>
     </div>
     <div class="ops-login-right">
-      <img src="../../assets/logo_VECMDB.png" />
+      <img src="../../assets/cmdb-logo.png" />
       <a-form
         id="formLogin"
         ref="formLogin"
@@ -213,7 +213,7 @@ export default {
   .ops-login-left {
     position: relative;
     width: 50%;
-    background: url('../../assets/login_bg.png') no-repeat;
+    background: url('../../assets/pixocial-bg.png') no-repeat;
     background-position: center;
     background-size: cover;
     > img {
